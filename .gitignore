@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+growbit_env
+
+
+# file with keys
+.env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+*/migrations/*.py
+
+# Media and static files
+media/
+staticfiles/
+
+# VSCode settings (optional)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
