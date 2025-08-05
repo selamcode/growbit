@@ -16,6 +16,7 @@ class User(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)  # Removed default
     user_level = models.ForeignKey("Level", on_delete=models.SET_NULL, null=True, related_name='users')
 
+    # human-readable representation of the object.
     def __str__(self):
         return self.username
 
