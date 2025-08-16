@@ -14,3 +14,14 @@
 ## Stage 3. Start development (view)
 
 - CRUD and App logic []
+#### Simple Summary: How to Create a RESTful Service with DRF (django rest framework) I will be using this to make it restful. 
+
+> Every DRF REST endpoint generally involves 4 steps:
+
+- Model → Define the data you store in the database (models.py).
+
+- Serializer → Define how to convert model data ↔ JSON, plus validation rules.
+
+- View → Decide how to handle requests (list, create, update, delete).
+
+- URL Routing → Connect the endpoint path to your view.
